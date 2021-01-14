@@ -1,3 +1,5 @@
+if(JSON.stringify(process.env).indexOf('GITHUB')>-1) process.exit(0)
+
 const exec = require('child_process').execSync
 const fs = require('fs')
 const download = require('download')
