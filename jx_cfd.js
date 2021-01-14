@@ -25,7 +25,7 @@ if(process.env.IGOT_PUSH_KEY){
 }
 
 async function downFile () {
-    const url = 'https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js'
+    const url = 'https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js'
     await download(url, './')
 }
 
