@@ -31,7 +31,7 @@ jobs:
               env:
                   JD_COOKIE: ${{ secrets.JD_COOKIE }}
                   JD_DEBUG: ${{ secrets.JD_DEBUG }}
-                  PUSH_KEY: ${{ secrets.PUSH_KEY }}
+                  #PUSH_KEY: ${{ secrets.PUSH_KEY }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
                   BARK_SOUND: ${{ secrets.BARK_SOUND }}
                   TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
@@ -40,3 +40,4 @@ jobs:
                   DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
                   JOY_FEED_COUNT: ${{ secrets.JOY_FEED_COUNT }}
                   JOY_RUN_FLAG: ${{ secrets.JOY_RUN_FLAG }}
+                  QYWX_AM: ${{ secrets.QYWX_AM }}
