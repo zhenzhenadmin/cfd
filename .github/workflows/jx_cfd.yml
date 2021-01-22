@@ -40,4 +40,4 @@ jobs:
                   DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
                   JOY_FEED_COUNT: ${{ secrets.JOY_FEED_COUNT }}
                   JOY_RUN_FLAG: ${{ secrets.JOY_RUN_FLAG }}
-                  QYWX_AM: ${{ secrets.QYWX_AM }}
+#                   QYWX_AM: ${{ secrets.QYWX_AM }}
